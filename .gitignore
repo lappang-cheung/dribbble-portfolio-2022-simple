@@ -33,3 +33,11 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+#IDE
+.idea/
+.DSstore/
+
+#npm || yarn
+yarn.lock
+package-lock.json
