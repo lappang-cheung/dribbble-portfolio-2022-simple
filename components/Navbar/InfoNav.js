@@ -13,19 +13,17 @@ const InfoNav = () => {
 		}
 	},[])
 	
-	console.log(current)
-	
 	const renderNavItems = (items) => {
 		{
 			return items.map((item, index) => {
 				return (
-					<li className={`hover:w-[10rem] hover:font-semibold cursor-pointer flex flex-row w-5 py-3 uppercase `+
-												 `${current === item ? 'w-[10rem] font-semibold cursor-context-menu' : ''}`}
+					<li className={`transition hover:w-[10rem] hover:font-semibold cursor-pointer flex flex-row w-5 py-3 uppercase `+
+												 `${current === item ? 'w-[10rem] font-semibold cursor-context-menu' : ''} hover:ease-in-out delay-700`}
 					    key={index + uuidv4()}>
 							<span className="text-xs tracking-wide">
 								{(index + 1) <= 9 ? `0${(index + 1).toString()}` : (index+1).toString()}
 							</span>
-						<span className="inline-block w-full h-px bg-black m-2 px-3" />
+						<span className="inline-block w-full h-px bg-black m-2 px-3 dark:bg-blue-100 delay" />
 						<span className="text-sm tracking-widest -mt-0.5">{item}</span>
 					</li>
 				)
