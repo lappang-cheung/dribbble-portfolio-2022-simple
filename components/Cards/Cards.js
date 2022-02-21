@@ -55,8 +55,9 @@ const Cards = () => {
 		},
 	]
 	
-	const renderGithubItems = (items) => {
-		return items.map(item => {
+	const renderGithubItems = (items, limit = 0) => {
+		const index = limit === 0 || limit >= items.length ? items.length - 1 : limit
+		return items.slice(0, index).map(item => {
 			return (
 				<a href={item.link} key={item.title + uuidv4()}>
 					<article className="bg-gray-100 p-8 mb-2 rounded-md dark:bg-slate-800 hover:z-10 hover:scale-90 hover:dark:bg-slate-900 transition hover:ease-in delay-200">
@@ -76,7 +77,7 @@ const Cards = () => {
 	return (
 		<section className="w-full md:ml-10 mb-16">
 			<div className="w-full">
-				{data && renderGithubItems(data)}
+				{data && renderGithubItems(data, 3)}
 			</div>
 		</section>
 	)
