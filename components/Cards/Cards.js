@@ -74,7 +74,7 @@ const Cards = () => {
 	
 	
 	return (
-		<section className="w-full md:overflow-y-auto md:sticky md:ml-10">
+		<section className="w-full md:ml-10 mb-16">
 			<div className="w-full">
 				{data && renderGithubItems(data)}
 			</div>

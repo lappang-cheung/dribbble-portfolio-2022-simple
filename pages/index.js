@@ -5,10 +5,12 @@ import Footer from '../components/Layouts/Footer'
 
 const Home = () => {
   return (
-    <section className="w-full md:px-0 xl:px-30 xl:ml-10">
-      <Info />
-      <InfoNav />
-      <Footer />
+    <section className="w-full md:px-0 xl:px-30 xl:ml-10 relative">
+      <div className="md:fixed">
+        <Info />
+        <InfoNav />
+        <Footer />
+      </div>
     </section>
   )
 }
