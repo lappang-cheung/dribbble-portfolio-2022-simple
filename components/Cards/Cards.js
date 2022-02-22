@@ -70,7 +70,7 @@ const Cards = () => {
 			type: 'medium',
 			date: 'October 17, 2022',
 			title: 'How To Integrate Calendly (ReactJs - Frontend Edition)',
-			categories: ["learning", "interview", "reactjs", "ecommerce", "startup"],
+			categories: ["learning", "interview", "reactjs", "ecommerce", "startup", "learning", "interview", "reactjs", "ecommerce", "startup"],
 			link: '#'
 		},
 		{
