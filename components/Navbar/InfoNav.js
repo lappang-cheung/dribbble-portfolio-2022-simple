@@ -5,10 +5,10 @@ const InfoNav = () => {
 	
 	const [current, setCurrent] = useState('')
 	
-	const data = ['projects', 'blogs', 'interviews']
+	const data = ['projects', 'blogs', 'works']
 	
 	useEffect(() => {
-		if (data && data.length > 0) {
+		if (data && data.length > 0 && current === '') {
 			setCurrent(data[0])
 		}
 	},[])

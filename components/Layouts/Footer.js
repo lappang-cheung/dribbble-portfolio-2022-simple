@@ -1,4 +1,8 @@
-import {AiOutlineGithub, AiOutlineTwitter} from "react-icons/ai";
+import {
+	AiOutlineGithub,
+	AiOutlineTwitter,
+	AiTwotoneMail
+} from "react-icons/ai";
 
 const Footer = () => {
 	return (
@@ -15,6 +19,11 @@ const Footer = () => {
 				<li className="py-2.5 md:py-4.5 px-2 hover:font-semibold cursor-pointer">
 					<a href="https://www.GitHub.com" target="_blank" rel="noreferrer" className="flex flex-row text-sm md:text-lg">
 						<AiOutlineGithub className="my-1 mx-1 md:text-xl"/> GitHub
+					</a>
+				</li>
+				<li className="py-2.5 md:py-4.5 px-2 hover:font-semibold cursor-pointer">
+					<a href="https://www.GitHub.com" target="_blank" rel="noreferrer" className="flex flex-row text-sm md:text-lg">
+						<AiTwotoneMail className="my-1 mx-1 md:text-xl"/> Email
 					</a>
 				</li>
 			</ul>
