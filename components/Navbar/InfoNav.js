@@ -5,7 +5,7 @@ const InfoNav = () => {
 	
 	const [current, setCurrent] = useState('')
 	
-	const data = ['projects', 'talks', 'interviews']
+	const data = ['projects', 'blogs', 'interviews']
 	
 	useEffect(() => {
 		if (data && data.length > 0) {
@@ -13,13 +13,19 @@ const InfoNav = () => {
 		}
 	},[])
 	
+	const selectLink = (link) => {
+		setCurrent(link)
+	}
+	
 	const renderNavItems = (items) => {
 		{
 			return items.map((item, index) => {
 				return (
-					<li className={`transition hover:w-[10rem] hover:font-semibold cursor-pointer flex flex-row w-5 py-3 uppercase `+
-												 `${current === item ? 'w-[10rem] font-semibold cursor-context-menu' : ''} hover:ease-in-out delay-700`}
-					    key={index + uuidv4()}>
+					<li className={`transition hover:w-[10rem] hover:font-semibold cursor-pointer flex flex-row w-5 py-3 ` +
+													`uppercase `+ `${current === item ? 'w-[10rem] font-semibold cursor-context-menu' : ''} ` +
+													`hover:ease-in-out delay-700`}
+					    key={index + uuidv4()}
+							onClick={() => selectLink(item)}>
 							<span className="text-xs tracking-wide">
 								{(index + 1) <= 9 ? `0${(index + 1).toString()}` : (index+1).toString()}
 							</span>
