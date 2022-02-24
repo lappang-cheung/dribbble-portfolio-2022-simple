@@ -1,7 +1,7 @@
 import {v4 as uuidv4} from "uuid";
 import PropTypes from 'prop-types'
 
-const BlogCard = ({ item, index }) => {
+const RegularCard = ({ item, index }) => {
 	return (
 		<a href={item.link} key={item.title + uuidv4()}>
 			<article className={`lg:max-w-[22rem] lg:max-h-[18rem] bg-gray-100 p-8 rounded-md dark:bg-slate-800 ` +
@@ -38,9 +38,9 @@ const BlogCard = ({ item, index }) => {
 	)
 }
 
-BlogCard.propTypes ={
+RegularCard.propTypes ={
 	item: PropTypes.object.isRequired,
 	index: PropTypes.number.isRequired
 }
 
-export default BlogCard
+export default RegularCard

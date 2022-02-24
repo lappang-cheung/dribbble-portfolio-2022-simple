@@ -3,7 +3,7 @@ import {AiFillStar} from "react-icons/ai";
 import PropTypes from 'prop-types'
 
 
-const GithubCard = ({ item }) => {
+const MosaicCard = ({ item }) => {
 	return (
 		<a href={item.link} key={item.title + uuidv4()}>
 			<article className="bg-gray-100 p-8 mb-2 rounded-md dark:bg-slate-800 hover:z-10 hover:scale-90 hover:dark:bg-slate-900 transition hover:ease-in delay-200">
@@ -18,8 +18,8 @@ const GithubCard = ({ item }) => {
 	)
 }
 
-GithubCard.propTypes ={
+MosaicCard.propTypes ={
 	item: PropTypes.object.isRequired,
 }
 
-export default GithubCard
+export default MosaicCard
