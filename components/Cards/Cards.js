@@ -174,7 +174,7 @@ const Cards = () => {
 									<h1 className="font-semibold uppercase text-md md:text-xl lg:text-xl xl:text-4xl">
 										JavaScript Autocomplete
 									</h1>
-									<p className="text-blue-200 text-sm mt-0.5 mb-1.5 md:mt-1.5 md:mb-4">
+									<p className="text-blue-200 text-sm mt-0.5 mb-1.5 md:mt-1.5 md:mb-2">
 										Learn with Jason - with Jason Lengstorf
 									</p>
 									<h6 className="uppercase text-sm tracking-wide font-semibold">
@@ -194,7 +194,7 @@ const Cards = () => {
 									<h1 className="font-semibold uppercase text-md md:text-xl lg:text-xl xl:text-4xl">
 										JavaScript Autocomplete
 									</h1>
-									<p className="text-blue-200 text-sm mt-0.5 mb-1.5 md:mt-1.5 md:mb-4">
+									<p className="text-blue-200 text-sm mt-0.5 mb-1.5 md:mt-1.5 md:mb-2">
 										Learn with Jason - with Jason Lengstorf
 									</p>
 									<h6 className="uppercase text-sm tracking-wide font-semibold">
@@ -214,7 +214,7 @@ const Cards = () => {
 									<h1 className="font-semibold uppercase text-md md:text-xl lg:text-xl xl:text-4xl">
 										JavaScript Autocomplete
 									</h1>
-									<p className="text-blue-200 text-sm mt-0.5 mb-1.5 md:mt-1.5 md:mb-4">
+									<p className="text-blue-200 text-sm mt-0.5 mb-1.5 md:mt-1.5 md:mb-2">
 										Learn with Jason - with Jason Lengstorf
 									</p>
 									<h6 className="uppercase text-sm tracking-wide font-semibold">
@@ -234,7 +234,7 @@ const Cards = () => {
 									<h1 className="font-semibold uppercase text-md md:text-xl lg:text-xl xl:text-4xl">
 										JavaScript Autocomplete
 									</h1>
-									<p className="text-blue-200 text-sm mt-0.5 mb-1.5 md:mt-1.5 md:mb-4">
+									<p className="text-blue-200 text-sm mt-0.5 mb-1.5 md:mt-1.5 md:mb-2">
 										Learn with Jason - with Jason Lengstorf
 									</p>
 									<h6 className="uppercase text-sm tracking-wide font-semibold">
@@ -254,7 +254,7 @@ const Cards = () => {
 									<h1 className="font-semibold uppercase text-md md:text-xl lg:text-xl xl:text-4xl">
 										JavaScript Autocomplete
 									</h1>
-									<p className="text-blue-200 text-sm mt-0.5 mb-1.5 md:mt-1.5 md:mb-4">
+									<p className="text-blue-200 text-sm mt-0.5 mb-1.5 md:mt-1.5 md:mb-2">
 										Learn with Jason - with Jason Lengstorf
 									</p>
 									<h6 className="uppercase text-sm tracking-wide font-semibold">
